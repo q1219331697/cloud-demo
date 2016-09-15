@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/q1219331697/spring-cloud-demo-config-repo
+        encrypt:
+          enabled: false
+
+server:
+  port: 8888
+eureka:
+  instance:
+    #hostname: configserver
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 5
+          

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-client
+
+server:
+  port: 0
+
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 5
