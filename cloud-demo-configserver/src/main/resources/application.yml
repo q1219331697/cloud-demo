@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/q1219331697/cloud-demo
-          searchPaths: cloud-demo-config-repo/*
+          searchPaths: cloud-demo-config-repo
         encrypt:
           enabled: false
 
