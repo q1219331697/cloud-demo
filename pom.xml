@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>cloud-demo-eurekaserver</module>
+  	
   	<module>cloud-demo-client</module>
   	<module>../cloud-demo-client1</module>
   	<module>cloud-demo-eurekaserver01</module>
@@ -17,6 +17,7 @@
   	
   	<module>cloud-demo-webapp</module>
   	<module>cloud-demo-apigateway</module>
+  	<module>cloud-demo-eurekaserver</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
