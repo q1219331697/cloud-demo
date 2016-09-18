@@ -1,0 +1,8 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: ${eureka.client.service-url.defaultZone}

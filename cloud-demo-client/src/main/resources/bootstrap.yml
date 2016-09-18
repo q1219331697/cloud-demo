@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client
+  cloud:
+    config:
+      name: common-config
+      discovery:
+        enabled: true
+        serviceId: configserver
