@@ -4,6 +4,7 @@ spring:
   cloud:
     config:
       server:
+        bootstrap: true
         git:
           uri: https://github.com/q1219331697/cloud-demo
           searchPaths: cloud-demo-config-repo
@@ -12,9 +13,6 @@ spring:
 
 server:
   port: ${SERVER_PORT:8888}
-
-management:
-  contextPath: /admin
 
 eureka:
   instance:
