@@ -13,9 +13,6 @@ spring:
 server:
   port: ${SERVER_PORT:8888}
 
-management:
-  contextPath: /admin
-
 eureka:
   instance:
     preferIpAddress: true
