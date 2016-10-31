@@ -1,7 +1,12 @@
 # 此为注释 – 将被 Git 忽略
 
 # 忽略所有以 . 开头的文件
-.*
+#.*
+
+# 忽略eclipse配置文件
+.project
+.classpath
+.settings/
 
 !.gitignore
 
